@@ -1,0 +1,37 @@
+.doodle-regular {
+    font-family: "Doodle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+span {
+    /* 여기에 스타일 속성 추가 */
+    color: #slateblue;
+    opacity: 0;
+    transition: opacity ease-in 200ms;
+    transition-delay: 120ms;
+    font-size: 40px;
+    margin: 10px;
+    white-space: normal;
+}
+
+span:hover {
+    opacity: 1;
+    transition: opacity 50ms linear;
+}
+
+span {
+    /* font-family: "Dongle", sans-serif;, */
+    color: slateblue;
+    opacity: 0;
+    transition: opacity ease-in 200ms;
+    transition-delay: 120ms;
+    font-size: 48px;
+    margin: 10px;
+    white-space: normal;
+}
+
+span:hover {
+    opacity: 0.;
+    transition: opacity 50ms linear;
+}
